@@ -34,12 +34,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [2] = LAYOUT_planck_mit(
-        KC_TILD,         KC_PGUP, KC_HOME, KC_UP,   KC_END,   KC_NO, KC_NO,   KC_DQUO, KC_LBRC, KC_RBRC, KC_NO,   KC_TRNS,
-        CW_TOGG,         KC_PGDN, KC_LEFT, KC_DOWN, KC_RIGHT, KC_NO, KC_PMNS, KC_PLUS, KC_LCBR, KC_RCBR, KC_BSLS, KC_PIPE,
-        LSFT_T(KC_CAPS), KC_NO,   KC_NO,   KC_NO,   KC_V,     KC_NO, KC_UNDS, KC_EQL,  KC_LPRN, KC_RPRN, KC_NO,   KC_NO,
-        KC_NO,           KC_TRNS, KC_TRNS, KC_TRNS, MO(3),       KC_SPC,      KC_TRNS, KC_NO,   KC_NO,   KC_NO,   KC_NO
+        KC_TILD,         KC_NO,   KC_LBRC, KC_RBRC, KC_DQUO, KC_NO,   KC_NO,  KC_NO,   KC_NO,   KC_RBRC, KC_NO,   KC_TRNS,
+        CW_TOGG,         KC_NO,   KC_LCBR, KC_RCBR, KC_PLUS, KC_PMNS, KC_NO,  KC_NO,   KC_NO,   KC_RCBR, KC_BSLS, KC_PIPE,
+        LSFT_T(KC_CAPS), KC_NO,   KC_LPRN, KC_RPRN, KC_EQL,  KC_UNDS, KC_NO,  KC_NO,   KC_NO,   KC_RPRN, KC_NO,   KC_RSFT,
+        KC_NO,           KC_TRNS, KC_TRNS, KC_TRNS, MO(3),        KC_SPC,     KC_TRNS, KC_RGUI, KC_RALT, KC_RCTL, KC_NO
     )
-
 };
 // clang-format on
 
